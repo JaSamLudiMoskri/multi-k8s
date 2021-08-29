@@ -17,7 +17,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            MarkoMandic
+            Marko Mandic Je Jebeni BOGGGGGGG !!!!!!!!!!
           </a>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
