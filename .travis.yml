@@ -16,10 +16,10 @@ before_install:
   - gcloud config set compute/zone europe-central2-a
   - gcloud container clusters get-credentials multi-cluster
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
-  - docker build -t mandicm223/react-testk ./react-frontend/Dockerfile.dev ./react-frontend
+  - docker build -t mandicm223/react-testk8s -f ./react-frontend/Dockerfile.dev ./react-frontend
 
 script:
-  docker run -e CI=true mandicm223/react-testk npm test
+  docker run -e CI=true mandicm223/react-testk8s npm test
 
 deploy:
   provider: script
