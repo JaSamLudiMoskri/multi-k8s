@@ -7,3 +7,8 @@ I feed the same Fibonacchi calculator application into cluster, so i can scale o
 Again I used TravisCi, Git for my version control and Google Kubernetes Engine for deploying cluster.
 
 # Application structure
+
+![image1](https://raw.githubusercontent.com/JaSamLudiMoskri/multi-k8s/main/Screenshot%202021-11-21%20195532.png)
+
+# Setup for GKE
+
