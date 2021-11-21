@@ -12,3 +12,5 @@ Again I used TravisCi, Git for my version control and Google Kubernetes Engine f
 
 # Setup for GKE
 
+![image2](https://raw.githubusercontent.com/JaSamLudiMoskri/multi-k8s/main/Screenshot%202021-11-21%20200837.png)
+
